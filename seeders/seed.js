@@ -9,7 +9,7 @@ mongoose.connect(
       useCreateIndex: true,
       useFindAndModify: false
     }
-)
+);
 
 
 let workoutSeed = [

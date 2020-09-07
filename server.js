@@ -24,7 +24,7 @@ mongoose.connect(
         useCreateIndex: true,
         useFindAndModify: false
     }
-)
+);
 
 app.listen(PORT, () => {
     console.log(`App running on port ${PORT}!`);
