@@ -17,7 +17,7 @@ require("./routes/apiRoutes.js")(app);
 require("./routes/views.js")(app);
 
 mongoose.connect(
-    process.env.MONGODB_URI || 'mongodb://localhost/workoutDb',
+    process.env.MONGODB_URI || 'mongodb://localhost/deep-thoughts',
     {
         useNewUrlParser: true,
         useUnifiedTopology: true,
